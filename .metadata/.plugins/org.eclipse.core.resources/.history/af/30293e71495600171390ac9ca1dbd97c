@@ -1,0 +1,24 @@
+'''
+Created on 2017年6月21日
+
+@author: admin
+'''
+from io import StringIO#StringIO模块的作用是在内存中读写
+from _io import BytesIO
+f=StringIO()
+s=f.write('wskd fkdsa ')
+print(f.getvalue())#获取写入的值
+print(s)#获取长度
+
+n=BytesIO()
+n.write('中文'.encode('utf_8'))#写入的不是str类型，而是经过utf-8编码的。
+
+#n.write('中文'.encode(encoding='utf_8', errors='strict'))
+print(n)
+print(n.getvalue())
+data = '人闲桂花落，夜静春山空。月出惊山鸟，时鸣春涧中。'.encode('utf-8')
+n=BytesIO(data)
+print(n)
+print(n.getvalue())
+
+

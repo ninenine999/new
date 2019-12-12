@@ -1,0 +1,12 @@
+'''
+Created on 2017年6月2日
+
+@author: admin
+'''
+L = ['Bart', 'Lisa', 'Adam']
+n=3
+x=3
+while n>0:
+    n=n-1
+    x=x-1
+    print('hello,'+L[x])

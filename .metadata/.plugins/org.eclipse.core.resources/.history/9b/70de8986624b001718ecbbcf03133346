@@ -1,0 +1,12 @@
+'''
+Created on 2017年6月7日
+
+@author: admin
+'''
+def my_abs1(x):
+  
+    if x>=0:
+        return x
+    else:
+        return -x
+y=my_abs1('7')

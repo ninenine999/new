@@ -1,0 +1,13 @@
+'''
+Created on 2017年6月20日
+
+@author: admin
+'''
+from urllib import request
+with request.urlopen('https://api.douban.com/v2/book/2129650') as f:
+    date=f.read()
+    print(date)
+    print('status:',f.status,f.reason)
+    for k,v in f.getheaders():
+        print('%s,%s'%(k,v))
+    print('Date',date.decode('utf-8'))

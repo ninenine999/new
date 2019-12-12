@@ -1,0 +1,23 @@
+'''
+Created on 2017年6月21日
+
+@author: admin
+'''
+from socket import *
+HOST='127.0.0.1'
+PORT=21567
+BUFSIZ=1024
+ADDR=(HOST,PORT)
+tcpCliSock=socket(AF_INET,SOCK_STREAM)
+tcpCliSock.connect(ADDR)
+while True:
+    date=input('>')
+    if not date:
+        break
+    tcpCliSock.send(date)
+    date=tcpCliSock.recv(BUFSIZ)
+    if not date:
+        break
+    print(date.decode('utf-8'))
+tcpCliSock.close()
+    

@@ -1,0 +1,9 @@
+'''
+Created on 2017年6月21日
+
+@author: admin
+'''
+import os
+print(os.name)#操作系统
+print(os.environ)#环境变量
+print(os.environ.get('path'))#获取path环境变量

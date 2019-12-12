@@ -1,0 +1,15 @@
+'''
+Created on 2017年6月21日
+
+@author: admin
+'''
+from io import StringIO#StringIO模块的作用是在内存中读写
+from _io import BytesIO
+f=StringIO()
+s=f.write('wskd fkdsa ')
+print(f.getvalue())#获取写入的值
+print(s)#获取长度
+
+from io import BytesIO
+n=BytesIO()
+n=

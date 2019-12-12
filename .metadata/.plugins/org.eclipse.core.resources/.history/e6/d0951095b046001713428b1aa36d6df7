@@ -1,0 +1,11 @@
+'''
+Created on 2017年6月1日
+
+@author: admin
+'''
+L = ['Bart', 'Lisa', 'Adam']
+x=3
+n=0
+while n>0:
+    x=x-1
+print(L[1])

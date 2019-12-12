@@ -1,0 +1,19 @@
+'''
+Created on 2017年6月20日
+
+@author: admin
+'''
+class Animal(object):
+    def bark(self):
+        print('啊啊')
+class Cat(Animal):
+    def bark(self):
+        print('喵')
+class Dog(Animal):
+    def bark(self):
+        print('汪汪')
+def animalBark(temp):
+    temp.bark()
+maomi=Cat()
+wangcai=Dog()
+animailBark(maomi)

@@ -1,0 +1,28 @@
+'''
+Created on 2017年6月16日
+
+@author: admin
+'''
+from _ast import Name
+class Home:
+    def __init__(self,area):
+        self.area=area
+        self.accommondateLiist=[]
+    def __str__(self):
+        msg1='家当前的可用耐面积为：'+str(self.area)
+        return msg1
+    def containItem(self,item):
+        self.accommondateLiist.append(item)
+class Bad:
+    def __init__(self,badArea,badName):
+        self.badArea=badArea
+        self.badName=Name
+    def __str__(self):
+        msg='床占用的面积为：'+str(self.badName)+str(self.badArea)
+        return msg
+
+home=Home(200)
+print(home)
+bad=Bad(2*2,'席梦思')
+print(bad)
+home.containItem(bad.badArea)

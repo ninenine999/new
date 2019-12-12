@@ -1,0 +1,11 @@
+'''
+Created on 2017年6月20日
+
+@author: admin
+'''
+from urllib import request
+with request.urlopen('http://www.baidu.com') as f:
+    date=f.read()#读取数据
+    print(f.getcode)
+    print('status:',f.status,f.reason)
+  

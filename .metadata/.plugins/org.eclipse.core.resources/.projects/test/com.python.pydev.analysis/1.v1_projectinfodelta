@@ -1,0 +1,10 @@
+INSTUPNetworkProgram.Network
+D:\python\test\NetworkProgram\Network.py
+INFOS:&&3|1|2|0&&3|3|2|0&&3|4|2|0&&3|5|2|0&&3|6|2|0&&3|7|2|0
+date=7
+PORT=3
+HOST=1
+NetworkProgram.Network=2
+tcpSerSock=6
+BUFSIZ=4
+ADDR=5

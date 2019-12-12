@@ -1,0 +1,16 @@
+MODULES_MANAGER_V2
+NetworkProgram.Network|D:\python\test\NetworkProgram\Network.py
+NetworkProgram.TCPCNework|D:\python\test\NetworkProgram\TCPCNework.py
+laonanhai.3level_menus|D:\python\test\laonanhai\3level_menus.py
+laonanhai.__init__|D:\python\test\laonanhai\__init__.py
+laonanhai.dictionary|D:\python\test\laonanhai\dictionary.py
+laonanhai.names|D:\python\test\laonanhai\names.py
+laonanhai.shopping|D:\python\test\laonanhai\shopping.py
+laonanhai.string|D:\python\test\laonanhai\string.py
+laonanhai.test|D:\python\test\laonanhai\test.py
+learn.StringIOAndBytesIO|D:\python\test\learn\StringIOAndBytesIO.py
+learn.file|D:\python\test\learn\file.py
+learn.open|D:\python\test\learn\open.py
+learn.test|D:\python\test\learn\test.py
+random.Openweb|D:\python\test\random\Openweb.py
+random.findall|D:\python\test\random\findall.py

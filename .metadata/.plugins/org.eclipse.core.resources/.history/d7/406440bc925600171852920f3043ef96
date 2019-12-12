@@ -1,0 +1,27 @@
+'''
+Created on 2017年6月21日
+
+@author: admin
+'''
+
+#创建TCP服务器
+from socket import *
+from time import ctime
+HOST='192.168.1.1'
+PORT=''
+BUFSIZ=1024
+ADDR=(HOST,PORT)
+tcpSerSock=socket(AF_INET,SOCK_STREAM)
+tcpSerSock.bind(ADDR)
+tcpSerSock.listen(5)
+while True:
+    print('waiting for connection...')
+    tcpCliSock,addr=tcpSerSock.accept()
+    print('……conneted from:',addr)
+    while True:
+        date=tcpCliSock.recv(BUFSIZ)
+        if not date:
+            break
+        tcpCliSock.send('[%s]%s'%(bytes(ctime(),'utf-8'),date)) 
+    tcpCliSock.close()
+tcpSerSock.close()

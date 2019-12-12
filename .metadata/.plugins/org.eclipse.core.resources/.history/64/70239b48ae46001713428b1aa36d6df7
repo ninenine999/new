@@ -1,0 +1,9 @@
+'''
+Created on 2017年6月1日
+
+@author: admin
+'''
+from ctypes.test.test_pickling import name
+names =['x','y','z','n']
+for y in names:
+    print(y)

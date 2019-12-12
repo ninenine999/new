@@ -1,0 +1,52 @@
+'''
+Created on 2017年6月15日
+
+@author: admin
+'''
+#定义一个类
+class Dog:
+    #狗在叫
+    def dark(self):
+        print('1111……')
+    def run(self):
+        print('跑……')
+    def eat(self):
+        print('吃……')
+        #在方法中可以对属性进行修改
+        self.weight+=5
+#创建一只狗
+xiaogou=Dog()
+#调用狗这个对象的一个方法
+xiaogou.dark()
+xiaogou.run()
+#添加属性（一般指的是对像的特点，区别于其它对像的特有东西）
+xiaogou.weight=5
+xiaogou.color='黄颜色'
+print(xiaogou.weight)
+print(xiaogou.color)
+print(xiaogou.eat())
+print(xiaogou.weight)
+#直接修改属性。
+xiaogou.weight+=5
+print(xiaogou.weight)
+
+'''class Cup():
+    def size(self):
+        print('杯子大小')
+    def writer(self):
+        print('杯子有水')
+        self.weight+=1
+lovoly=Cup()
+lovoly.size()
+lovoly.color='绿色'
+lovoly.weight=1
+print(lovoly.weight)
+lovoly.weight+=1
+print(lovoly.weight)
+'''
+
+class Mouse:
+    def __init__(self):
+        self.coler='黑色'
+        self.category='无线'
+

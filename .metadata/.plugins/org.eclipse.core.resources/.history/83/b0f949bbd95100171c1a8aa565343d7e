@@ -1,0 +1,46 @@
+'''
+Created on 2017年6月15日
+
+@author: admin
+'''
+#定义一个类
+class Dog:
+    #狗在叫
+    def __init__(self,newWeight):
+        self.weight=newWeight
+    def dark(self):
+        print('1111……')
+    def run(self):
+        print('跑……')
+    def eat(self):
+        print('吃……')
+        #在方法中可以对属性进行修改
+        self.weight+=5
+
+Bigdog=Dog(6)
+print(Bigdog.weight)
+
+
+'''class Cup():
+    def size(self):
+        print('杯子大小')
+    def writer(self):
+        print('杯子有水')
+        self.weight+=1
+lovoly=Cup()
+lovoly.size()
+lovoly.color='绿色'
+lovoly.weight=1
+print(lovoly.weight)
+lovoly.weight+=1
+print(lovoly.weight)
+'''
+
+class Mouse:
+    def __init__(self):
+        self.coler='黑色'
+        self.category='无线'
+leibo=Mouse()
+print(leibo.coler)
+print(leibo.category)
+

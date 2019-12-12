@@ -1,0 +1,82 @@
+'''
+Created on 2017年6月9日
+
+@author: admin
+'''
+from builtins import int
+'''from ctypes.test.test_pickling import name
+y=input('请输入密码：')
+print('你的密码是：%s'%y)
+import time
+time.sleep(3)#延时
+b=input('请输入B：')
+print(b)'''
+
+'''#打印名片
+name=input('请输入姓名')
+qq=input('请输入QQ：')
+tel=input('请输入手机号：')
+import time
+for i in i<3:
+    i=0
+    i=i+1
+    print('正在打印中还有',%i)
+   
+print('================')
+print('姓名：%s'%name)
+print('QQ：%s'%qq)
+print('手机号%ss'%tel)
+print('================')'''
+
+'''#获取多个字符进行计算
+phone=input('请输入a：')
+y=int(phone)
+phone1=input('请输入b：')
+
+b=int(phone1)
+x=y-b
+print(x)'''
+
+
+'''y=int(input('请输入长度：'))
+if y>10:
+    print('ssskkdlls')
+else:
+    print('yyyyy')
+    '''
+'''#石头剪刀布
+import random
+i=0
+while i<5:
+    i=i+1
+    print('比赛规划0为剪刀，1为布，2为石头')
+    a=int(input('请1号出'))
+    b=random.randint(0,2)
+    if (a==0 and b==1)or(a==1 and b==2)or(a==2 and b==0):
+        print('1号赢，1号出的是%d,2号出的是%d'%(a,b))
+        print(b)
+    elif (a==0 and b==0)or(a==1 and b==1)or(a==2 and b==2):
+        print('平局,1号出的是%d,2号出的是%d'%(a,b))
+    else :
+        print('2号赢,1号出的是%d,2号出的是%d'%(a,b))
+        print(b)'''
+'''a=0
+i=0
+while i<100:
+    i=i+1
+    if i%2==0:
+        a=a+i
+print(a)'''
+
+
+a=1
+b=1
+while a<10:
+    while b<10: 
+        print(a*(b+1))
+        b=b+1
+    a=a+1
+print(a,b)    
+
+
+

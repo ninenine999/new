@@ -1,0 +1,12 @@
+'''
+Created on 2017年6月11日
+
+@author: admin
+'''
+
+name='abcdefhncdseesss'
+print(name[::])
+print(name[::-1])
+
+print(name[name.find('c')])
+

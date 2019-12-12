@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将资源“test/learn/__init__.py”重命名为“Practice.py”" description="重命名资源“__init__.py”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="learn/__init__.py" name="Practice.py" stamp="1496309218622" updateReferences="true"/>
+</session>

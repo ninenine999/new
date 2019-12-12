@@ -1,0 +1,9 @@
+'''
+Created on 2017年6月16日
+
+@author: admin
+'''
+class Home:
+    def __init__(self,area):
+        self.area
+        self.accommondateLiist

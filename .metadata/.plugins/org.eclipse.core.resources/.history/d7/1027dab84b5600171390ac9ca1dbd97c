@@ -1,0 +1,7 @@
+'''
+Created on 2017年6月21日
+
+@author: admin
+'''
+import os
+print(os.name)

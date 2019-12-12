@@ -1,0 +1,10 @@
+'''
+Created on 2017年6月21日
+
+@author: admin
+'''
+from io import StringIO
+f=StringIO()
+print(f.getvalue())#获取存的值
+s=f.write('wskd fkdsa ')
+print(s)#获取长度

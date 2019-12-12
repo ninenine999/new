@@ -1,0 +1,25 @@
+'''
+Created on 2017年6月15日
+
+@author: admin
+'''
+#烤地瓜
+#1.熟了没？0-3生，超过3半生不熟、超过5熟了、超过8烤焦了cookedLevel
+#2.表示烤熟状态cookedString
+#3.地瓜原料：condiments
+
+class BakedSweetPotato:
+    def __init__(self):
+        self.cookedLevel=0
+        self.cookedString='生的'
+        self.condiments=[]
+    def cook(self,time):
+        if time<3:
+            print('生的')
+        elif time<5:
+            print('半生不熟')
+        elif time<8:
+            print('熟了')
+        else:
+            print('烤焦了')    
+        

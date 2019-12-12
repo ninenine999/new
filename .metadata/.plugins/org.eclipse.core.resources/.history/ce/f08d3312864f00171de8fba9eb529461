@@ -1,0 +1,14 @@
+'''
+Created on 2017年6月12日
+
+@author: admin
+'''
+
+namelist3=['sss','aa','yyy']
+
+n=input('请输入要修改的数据')
+f=namelist3.index(n)
+m=input('请输入新值')
+namelist3[f]=m
+print(namelist3)
+

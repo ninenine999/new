@@ -1,0 +1,14 @@
+'''
+Created on 2017年6月11日
+
+@author: admin
+'''
+from _operator import index
+
+name='abcdefhncdseesss'
+print(name[::])
+print(name[::-1])
+
+print(name.find('c',5,20))
+print(index('c'))
+

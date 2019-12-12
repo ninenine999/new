@@ -1,0 +1,23 @@
+'''
+Created on 2017年6月16日
+
+@author: admin
+'''
+from _ast import Name
+class Home:
+    def __init__(self,area):
+        self.area=area
+        self.accommondateLiist=[]
+    def __str__(self):
+        msg1='家当前的可用耐面积为：'+self.area
+        
+class Bad:
+    def __init__(self,badArea):
+        self.badArea=badArea
+        self.badName=Name
+    def __str__(self):
+        msg='床占用的面积为：'+self.badArea
+home=Home(200)
+print(home)
+bad=Bad(2*2)
+print(bad)
